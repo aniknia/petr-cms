@@ -112,3 +112,18 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+
+############################
+# Docker
+############################
+
+Dockerfile
+
+############################
+# Packages
+############################
+
+package-lock.json
+package.json
+yarn.lock
