@@ -4,7 +4,8 @@
   "info": {
     "singularName": "petr",
     "pluralName": "petrs",
-    "displayName": "petr"
+    "displayName": "petr",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,14 +22,23 @@
       "type": "integer"
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "created": {
+      "type": "date"
+    },
+    "tags": {
+      "type": "text",
+      "regex": "([#])\\w+",
+      "required": false
     }
   }
 }
