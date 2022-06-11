@@ -38,6 +38,9 @@
     "tags": {
       "type": "text",
       "required": false
+    },
+    "dropped": {
+      "type": "boolean"
     }
   }
 }
