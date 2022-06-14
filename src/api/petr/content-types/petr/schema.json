@@ -39,7 +39,8 @@
       "required": false
     },
     "dropped": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     }
   }
 }
