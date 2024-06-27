@@ -10,11 +10,12 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "^4.15.5",
-    "@strapi/plugin-users-permissions": "^4.15.5",
-    "@strapi/provider-email-sendgrid": "^4.15.5",
-    "@strapi/provider-upload-cloudinary": "^4.15.5",
-    "@strapi/strapi": "^4.15.5",
+    "@strapi/plugin-i18n": "^4.25.1",
+    "@strapi/plugin-users-permissions": "^4.25.1",
+    "@strapi/provider-email-sendgrid": "^4.25.1",
+    "@strapi/provider-upload-cloudinary": "^4.25.1",
+    "@strapi/strapi": "^4.24.5",
+    "formidable": "^3.5.1",
     "pg": "8.7.3"
   },
   "author": {
@@ -24,7 +25,7 @@
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
   },
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=16.x.x <=20.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
