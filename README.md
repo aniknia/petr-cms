@@ -10,6 +10,12 @@ When your account is created contact me to add you to the project.
 
 Next you will need to install railways cli tool and npm on your machine.
 
+Clone the project and install dependencies:
+```bash
+git clone [this repo]
+npm i
+```
+
 Then run:
 
 ```bash
