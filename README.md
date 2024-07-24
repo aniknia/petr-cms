@@ -1,29 +1,37 @@
----
-title: Strapi
-description: A self-hosted version of Strapi using a Postgres database
-tags:
-  - strapi
-  - postgresql
-  - cms
-  - javascript
+## Welcome to PetrArchive CMS 👋
+
+This is the backend of PetrArchive.
+
 ---
 
-# Strapi example
+In order to run this with the current database you will need to make a [Railway](https://railway.app) account.
 
-This example deploys self-hosted version of [Strapi](https://strapi.io/). Internally it uses a PostgreSQL database to store the data.
+When your account is created contact me to add you to the project.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/strapi)
+Next you will need to install railways cli tool and npm on your machine.
 
-## ✨ Features
+Then run:
 
-- Strapi
-- Postgres
+```bash
+railway login
+```
+or
+```bash
+railway login --browserless
+```
+if you are using a headless mode.
 
-## 💁‍♀️ How to use
+Run:
+```bash
+railway link
+```
+and select the Petr CMS project.
 
-- Click the Railway button 👆
-- Add the environment variables
-  - If you do not add the Cloudinary related environment variables, your images/files will not be persisted between deploys.
+Finally run:
+```bash
+railway run npm run develop
+```
+to run the CMS locally
 
 ## 📝 Notes
 
